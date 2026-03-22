@@ -70,3 +70,17 @@ it Automatically applies (merges) them into your current project
 Fetch is safer because it doesn’t change your work immediately
 Pull is faster because it updates your project instantly
 
+# GIT REBASE
+
+Git rebase is a command in Git that lets you move your work on top of another branch.
+it replays your changes on the latest version of another branch so your project history looks cleaner and linear, without unnecessary merge commits.
+
+Basic Command
+git rebase <branch-name>
+
+Example:
+
+git checkout feature
+git rebase main
+
+This takes your changes in the `feature` branch and reapplies them on top of the `main` branch.
