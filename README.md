@@ -30,3 +30,26 @@ It is used to:
 * Share your code with others
 * Collaborate with teams
 
+
+# OTHER ALTERNATIVES TO GITHUB
+
+Some of the alternatives to github includes:
+1. GitLab
+
+ A powerful platform similar to GitHub
+ Supports code hosting, collaboration, and built-in tools for testing and deployment 
+
+
+2. Bitbucket
+
+ This is Owned by Atlassian
+ It is Known for strong integration with tools like Jira and team collaboration features
+
+ 3. SourceForge
+
+this is One of the oldest platforms for hosting open-source projects
+It Provides project management tools and download hosting 
+
+These platforms perform similar functions to GitHub—helping you store, manage, and collaborate on code online.
+
+
