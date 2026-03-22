@@ -76,11 +76,33 @@ Git rebase is a command in Git that lets you move your work on top of another br
 it replays your changes on the latest version of another branch so your project history looks cleaner and linear, without unnecessary merge commits.
 
 Basic Command
+```bash
 git rebase <branch-name>
-
+```
 Example:
-
+```bash
 git checkout feature
 git rebase main
-
+```
 This takes your changes in the `feature` branch and reapplies them on top of the `main` branch.
+
+
+# GIT CHERRY-PICK
+
+Git cherry-pick is a command in Git that lets you take a specific change (commit) from one branch and apply it to another branch.
+Instead of merging an entire branch, you pick only the changes you want.
+
+
+```bash
+git cherry-pick <commit-hash>
+```
+
+
+
+```bash
+git checkout main
+git cherry-pick a1b2c3d
+```
+
+This takes the specific commit `a1b2c3d` from another branch and applies it to your `main` branch.
+
