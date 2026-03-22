@@ -53,3 +53,20 @@ It Provides project management tools and download hosting
 These platforms perform similar functions to GitHub—helping you store, manage, and collaborate on code online.
 
 
+# DIFFERNCE BETWEEN GIT FETCH AND GIT PULL
+
+Both commands are used in Git to get updates from a remote repository, but they work differently:
+
+Git Fetch
+This Downloads changes from the remote repository
+It does NOT change your current files
+It Lets you review updates before applying them
+
+
+Git Pull
+It Downloads changes from the remote repository
+it Automatically applies (merges) them into your current project
+
+Fetch is safer because it doesn’t change your work immediately
+Pull is faster because it updates your project instantly
+
